@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #545454;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #aeaeae;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        nav a:hover {
+            background-color: #545454;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 20px;
+            align-items: center;
+        }
+        .photo {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .photo:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #545454;
+            color: #000000;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nature</h1>
+    </header>
+    <nav>
+        <a href="#">Animal</a>
+        <a href="#">Forest</a>
+        <a href="#">Sea</a>
+        <a href="#">Mountain</a>
+    </nav>
+
+    <center>
+    <main>
+        <div class="grid-container">
+            <a href="https://www.google.com/imgres?q=nature%20ANIMAL&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Flarge-group-african-safari-animals-600nw-727249072.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fanimal-nature&docid=8dQOLBlAKqHNGM&tbnid=ijCFCaS_a7XBMM&vet=12ahUKEwjIorHRtqeFAxWJT2wGHXCABcQQM3oECEsQAA..i&w=600&h=337&hcb=2&ved=2ahUKEwjIorHRtqeFAxWJT2wGHXCABcQQM3oECEsQAA">
+            <img src="animal.jpg" alt="ANIMAL" width="200">     
+            </a>
+
+            <a href="https://www.google.com/imgres?q=nature&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc8%2FAltja_j%25C3%25B5gi_Lahemaal.jpg%2F1200px-Altja_j%25C3%25B5gi_Lahemaal.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNature_photography&docid=oxi7l2kbi9T7QM&tbnid=Xu5VovIAI2fbKM&vet=12ahUKEwiDkqfhsaeFAxUoUGwGHVsNCcMQM3oECGIQAA..i&w=1200&h=806&hcb=2&ved=2ahUKEwiDkqfhsaeFAxUoUGwGHVsNCcMQM3oECGIQAA">
+                <img src="forest.jpg" alt="FOREST" width="200">     
+                </a>
+
+            <a href="https://www.google.com/imgres?q=nature%20sea&imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F161%2F296%2F845%2Fnature-sea-water-turquoise-wallpaper-preview.jpg&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fnature-sea-water-turquoise-sky-ocean-travel-beach-summer-wallpaper-gfjt&docid=bNMarVSYj4CsZM&tbnid=f3WOn-D-h3eXYM&vet=12ahUKEwi_nf21t6eFAxXvT2wGHRBGAMQQM3oECBsQAA..i&w=728&h=410&hcb=2&ved=2ahUKEwi_nf21t6eFAxXvT2wGHRBGAMQQM3oECBsQAA">
+                <img src="sea.jpg" alt="SEA" width="200">     
+                </a>
+
+            <a href="https://www.google.com/imgres?q=nature&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F417074%2Fpexels-photo-417074.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2520nature%2F&docid=5WDl5hiB_FvlXM&tbnid=SkrrHWgkwDYIRM&vet=12ahUKEwj4h7T-tqeFAxWDXGwGHVOHCsQQM3oECCAQAA..i&w=500&h=337&hcb=2&ved=2ahUKEwj4h7T-tqeFAxWDXGwGHVOHCsQQM3oECCAQAA">
+                <img src="mountain.jpeg" alt="MOUNTAIN" width="200">     
+                </a>
+    </main>
+        </center>
+    <footer>
+        <p>&copy; Photo of Nature </p>
+    </footer>
+</body>
+</html>
